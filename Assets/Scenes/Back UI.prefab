@@ -1,0 +1,183 @@
+- !<ObjectPrefab/ed65ae68-222f-4403-835f-ea616f0cb252>
+  LazyLoading: true
+  RetainAssets: true
+  objects:
+    - !<own> 47ee3209-97b3-4679-a25b-bc3f07b1aac8
+  PackagePath: ""
+- !<SceneObject/07530266-3156-477a-8a47-89d823c1a7eb>
+  Name: Full Frame Region 1
+  Enabled: true
+  Layer: 20
+  LocalTransform:
+    position: {x: 0, y: 0, z: -1}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+  Children:
+    - !<own> c5b5940d-b11a-47d0-8db4-36ddfcb426b2
+  Components:
+    - !<own> 8521fce7-8f51-4c5d-a951-6b7bf978768d
+    - !<own> d1f32d01-d363-4753-b06a-3e58152b64f6
+  PrefabRemaps:
+    []
+- !<Text/300967f2-89d6-4dc6-b5c8-2972fe0bb76f>
+  Text: "Back\n"
+  SizeToFit: false
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  DepthTest: false
+  FontSize: 500
+  Fill:
+    mode: Solid
+    color: {x: 0, y: 0, z: 0, w: 1}
+    texture: 0
+  Dropshadow:
+    enabled: true
+    fill:
+      mode: Solid
+      color: {x: 0, y: 0, z: 0, w: 1}
+      texture: 0
+    offsetX: 0.25
+    offsetY: 0.25
+  Outline:
+    enabled: true
+    fill:
+      mode: Solid
+      color: {x: 0.95872431993484497, y: 0.96389716863632202, z: 0.15155260264873505, w: 1}
+      texture: 0
+    size: 0.41000000000000003
+  Background:
+    enabled: false
+    fill:
+      mode: Solid
+      color: {x: 0, y: 0, z: 0, w: 1}
+      texture: 0
+    margins:
+      left: 0
+      bottom: 0
+      right: 0
+      top: 0
+  AdvancedLayout:
+    letterSpacing: 0
+    lineSpacing: 1
+  LayoutRect:
+    left: -7.5
+    bottom: -2.25
+    right: 7.5
+    top: 2.25
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  CapitilizationOverride: None
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1, y: 1, z: 1, w: 1}
+  ShadowDensity: 1
+  RenderOrder: 0
+  Name: Text
+  Enabled: true
+  PrefabRemaps:
+    []
+- !<SceneObject/47ee3209-97b3-4679-a25b-bc3f07b1aac8>
+  Name: Back
+  Enabled: true
+  Layer: 0
+  LocalTransform:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+  Children:
+    - !<own> 07530266-3156-477a-8a47-89d823c1a7eb
+  Components:
+    []
+  PrefabRemaps:
+    []
+- !<ScreenTransform/8521fce7-8f51-4c5d-a951-6b7bf978768d>
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0, y: 0}
+  Transform:
+    position: {x: 0, y: 0, z: -1}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1
+    bottom: -1
+    right: 1
+    top: 1
+  Offset:
+    left: 0
+    bottom: 0
+    right: 0
+    top: 0
+  Name: Screen Transform
+  Enabled: true
+  PrefabRemaps:
+    []
+- !<ScreenTransform/91cc2288-cdef-42b7-bc2a-c561ec9b941b>
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0, y: 0}
+  Transform:
+    position: {x: 0, y: 0, z: -1}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1
+    bottom: -1
+    right: 1
+    top: 1
+  Offset:
+    left: 0
+    bottom: 0
+    right: 0
+    top: 0
+  Name: Screen Transform
+  Enabled: true
+  PrefabRemaps:
+    []
+- !<SceneObject/c5b5940d-b11a-47d0-8db4-36ddfcb426b2>
+  Name: Back
+  Enabled: true
+  Layer: 20
+  LocalTransform:
+    position: {x: 0, y: 0, z: -1}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+  Children:
+    []
+  Components:
+    - !<own> 91cc2288-cdef-42b7-bc2a-c561ec9b941b
+    - !<own> 300967f2-89d6-4dc6-b5c8-2972fe0bb76f
+  PrefabRemaps:
+    []
+- !<ScreenRegionComponent/d1f32d01-d363-4753-b06a-3e58152b64f6>
+  ScreenRegionType: FullFrame
+  ResizeWithKeyboard: false
+  Name: Screen Region
+  Enabled: true
+  PrefabRemaps:
+    []

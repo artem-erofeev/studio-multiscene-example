@@ -1,0 +1,18 @@
+- !<AssetImportMetadata/8877b109-0cc9-4b26-93d2-585c29240f3e>
+  ImporterSettings: !<AssetImporterSettings/a28056b7-ec34-4cbb-acf9-40be947eb653>
+    {}
+  ImportedAssetIds:
+    FileMesh: af634cf7-9419-4064-b656-d041a593830d
+  ImporterName: FileMeshImporter
+  PrimaryAsset: !<reference> af634cf7-9419-4064-b656-d041a593830d
+  PackageType: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  CompressionSettingsMap:
+    MeshCompressionSettings: !<MeshCompressionSettings/37d62de4-95ca-4e84-933f-a0fe5534710b>
+      EnableDracoCompression: false
+      CompressionLevel: 0
+      PositionBits: 11
+      TexcoordBits: 10
+      NormalBits: 8
+      ColorBits: 8

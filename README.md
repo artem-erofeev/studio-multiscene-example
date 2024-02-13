@@ -1,3 +1,5 @@
+# Scene Manager + Multiscene Example
+
 This project is an example of using Scene Manager to dynamically load different sub scenes.
 
 Sub scene is represented as a Prefab. Many expect to see Scene in that role, but at the moment Scene is a Prefab which has Render Config mapping Render Targets to Live/Capture/.. outputs.
